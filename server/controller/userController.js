@@ -19,7 +19,7 @@ exports.addUser = async (req, res, next) => {
         const email = req.body.email;
         const phonenumber = req.body.phone;
 
-      
+          
 
         const data = await User.create({ name: name, email: email, phonenumber: phonenumber });
         res.status(201).json({ newUserDetail: data });

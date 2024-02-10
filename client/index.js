@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Display each user's data
         displayUserData(res.data.allUsers[i]);
       }
-    })
+    })  
     .catch((error) => {
       console.log(error);
     });

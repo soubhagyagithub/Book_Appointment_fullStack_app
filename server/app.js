@@ -19,7 +19,7 @@ sequelize.sync()
     // console.log(result);
     app.listen(3000, () =>{
         console.log('server is listiening on port 3000');
-    })
+    })   
 })
 .catch(err => {
     console.log(err);
